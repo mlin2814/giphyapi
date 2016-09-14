@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Marvel: By the Heroes</title>
+	<style type="text/css">
+		button, div, form, input {
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Marvel Hero Search</h1>
+
+  <!-- Rendered Buttons will get Dumped Here  -->
+  <div id="buttonsView"></div>
+
+  <form id="hero-form">
+    <label for="hero-input">Add to the Hero Roster</label>
+    <input type="text" id="hero-input"><br>
+    
+    <!-- Button triggers new movie to be added -->
+    <input id="addHero" type="submit" value="Add to the Hero Roster">
+  </form>
+
+
+  <!-- Movies will Get Dumped Dere -->
+  <div id="heroesView"></div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="logic.js"></script>
